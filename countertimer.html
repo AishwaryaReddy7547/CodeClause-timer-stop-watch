@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+       <title> Countdown Timer</title>
+       <link rel="stylesheet" href="timer.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 align="center">Welcome to the Time World</h1>
+        <br />
+        <br />
+        <div class="container3">
+        <img height="150px" width="150px" src="timer1.gif">
+        <button onclick="timer()">Timer</button>
+        <img height="150px" width="150px" src="timer2.gif">
+        <button onclick="stopwatch()">Stopwatch</button>
+        <img height="150px" width="150px" src="timer1.gif">
+        <br>
+        <br>
+        <br>
+        </div>
+        <marquee behavior="scroll" direction="left" scrollamount="25" id="scrollimg"><img id="img1" src="timer.gif"></marquee>
+        </div>
+
+        <div class="container1">
+        <h1 align="center">Countdown Timer</h1>
+        <br /><br />
+        <div align="center">
+        <label for="demo1" id="label1">Hours:</label>
+        <input type="text" id="demo1" placeholder="Enter hours as 00">
+        <label for="demo2" id="label2">Minutes:</label>
+        <input type="text" id="demo2" placeholder="Enter Minutes as 00">
+        <label for="demo3" id="label3">Seconds:</label>
+        <input type="text" id="demo3" placeholder="Enter Seconds as 00">
+        <br /><br /><br />
+        <button onclick="timer_start()">Start</button>
+        <button onclick="clearfunc()">Clear</button>
+        <br>
+        <br>
+        <button onclick="backfunction()">Back</button>
+        </div>
+        <p align="center" id="demo7"></p>
+        <div align="center">
+        <span id="demo4"></span>
+        <span id="demo8"></span>
+        <span id="demo5"></span>
+        <span id="demo9"></span>
+        <span id="demo6"></span>
+        </div>
+        </div>
+
+        <div class="container2">
+        <h1 align="center">Stop Watch</h1>
+        <br />
+        <div align="center">
+        <span id="demo10">00</span>
+        <span id="demo11">:</span>
+        <span id="demo12">00</span>
+        <span id="demo13">:</span>
+        <span id="demo14">00</span>
+        <span id="demo15">:</span>
+        <span id="demo16">00</span>
+        <br />
+        <button onclick="stopwatchstart()">Start</button>
+        <button onclick="stopwatchend()">Stop</button>
+        <button onclick="reset()">Reset</button>
+        <br>
+        <br>
+        <button onclick="backfunction()">Back</button>
+        </div>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>

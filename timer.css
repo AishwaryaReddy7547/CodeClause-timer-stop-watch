@@ -1,0 +1,56 @@
+h1{
+    color:black;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    background-color:darkolivegreen;
+    border-style: double;
+    
+}
+button{
+    border-radius: 30%;
+    height:50px;
+    width:200px;
+    background-color:darkolivegreen;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+#demo4,#demo5,#demo6,#demo8,#demo9{
+    font-size:200px;
+    color:black;
+}
+#demo7{
+    font-size:100px;
+    color:darkolivegreen;
+    text-shadow:black 5px 5px 5px;   
+}
+#label1,#label2,#label3{
+    color:black;
+    font-size:30px;
+}
+#demo1,#demo2,#demo3{
+    border-width: 15px;
+    height: 30px;
+    border-radius:25%;
+    font-size: 15px;
+}
+#demo10,#demo11,#demo12,#demo13,#demo14,#demo15,#demo16{
+    font-size:150px;
+    color:black;
+}
+.container3{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-left:20px;
+    
+}
+#img1{
+    padding-top: 30px;
+    padding-left:400px;
+    width: 500px;
+    height:300px;
+}
+button:hover{
+    background-color:mediumslateblue;
+}
